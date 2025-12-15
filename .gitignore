@@ -8,3 +8,9 @@
 /pytestemp
 __pycache__
 .DS_Store
+
+**/databases
+**/MsaServer/jobs
+**/MsaServer/mmseqs
+**/MsaServer/mmseqs-server
+**/MsaServer/*.tar.gz
