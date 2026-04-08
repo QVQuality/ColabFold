@@ -3,7 +3,7 @@
     // should mmseqs und webserver output be printed
     "verbose": true,
     "server": {
-        "address": "dl.qvquality.com:8080",
+        "address": "0.0.0.0:8080",
         // prefix for all API endpoints
         "pathprefix": "/msaserver/",
         // enables additional API endpoints for adding databases
