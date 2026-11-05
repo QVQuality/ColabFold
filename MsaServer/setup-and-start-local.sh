@@ -99,7 +99,7 @@ fi
 # Extra GPU parameters
 GPU_PARAMS=""
 if [ -n "${GPU}" ]; then
-  GPU_PARAMS="--paths.colabfold.gpu.gpu 1 --paths.colabfold.gpu.server 0"
+  GPU_PARAMS="--paths.colabfold.gpu.gpu 1 --paths.colabfold.gpu.server 0 --paths.colabfold.gpu.devices GPU-7c742dd2-98c6-60e3-e7a2-5f9fdaa28e52"
 fi
 
 # start the server in local mode
